@@ -1,12 +1,22 @@
-<index>
+<addons>
+    <!-- IPTV Channels Addon -->
     <addon id="plugin.video.iptv" version="1.0.0" name="IPTV Channels">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/addon.xml</info>
-        <checksum>https://coolitis.github.io/cooler-repo/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/</datadir>
+        <info compressed="false">
+            https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/addon.xml
+        </info>
+        <datadir zip="true">
+            https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/
+        </datadir>
     </addon>
+
+    <!-- Free Movies Addon -->
     <addon id="plugin.video.free-movies" version="1.0.0" name="Free Movies">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.free-movies/addon.xml</info>
-        <checksum>https://coolitis.github.io/cooler-repo/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.free-movies/</datadir>
+        <info compressed="false">
+            https://coolitis.github.io/cooler-repo/addons/plugin.video.free-movies/addon.xml
+        </info>
+        <datadir zip="true">
+            https://coolitis.github.io/cooler-repo/addons/plugin.video.free-movies/
+        </datadir>
     </addon>
-</index>
+</addons>
+
