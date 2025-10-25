@@ -1,0 +1,14 @@
+<settings>
+    <category label="IPTV Settings">
+        <setting id="iptv_url"
+                 type="string"
+                 label="M3U Playlist URL"
+                 default="https://example.com/playlist.m3u8"
+                 visible="true" />
+        <setting id="show_hd_only"
+                 type="bool"
+                 label="Show HD Channels Only"
+                 default="false"
+                 visible="true" />
+    </category>
+</settings>
