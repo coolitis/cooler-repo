@@ -1,0 +1,21 @@
+<addons>
+    <addon id="repository.myrepo" version="1.0.0" name="My Kodi Repository" provider-name="coolitis">
+        <extension point="xbmc.addon.repository" name="My Repo">
+            <info>https://coolitis.github.io/cooler-repo/repo/addons.xml</info>
+            <checksum>https://coolitis.github.io/cooler-repo/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://coolitis.github.io/cooler-repo/repo/</datadir>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.iptv" version="1.0.0" name="IPTV Channels" provider-name="coolitis">
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>video</provides>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.free-movies" version="1.0.0" name="Free Movies" provider-name="coolitis">
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>video</provides>
+        </extension>
+    </addon>
+</addons>
