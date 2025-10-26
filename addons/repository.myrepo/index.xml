@@ -1,22 +1,75 @@
 <addons>
-    <!-- IPTV Channels Addon -->
-    <addon id="plugin.video.iptv" version="1.0.0" name="IPTV Channels">
-        <info compressed="false">
-            https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/addon.xml
-        </info>
-        <datadir zip="true">
-            https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/
-        </datadir>
+    <!-- IPTV Addon -->
+    <addon id="plugin.video.iptv" version="1.0.0" name="IPTV MultiSource">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/</datadir>
     </addon>
 
-    <!-- Free Movies Addon -->
-    <addon id="plugin.video.free-movies" version="1.0.0" name="Free Movies">
-        <info compressed="false">
-            https://coolitis.github.io/cooler-repo/addons/plugin.video.free-movies/addon.xml
-        </info>
-        <datadir zip="true">
-            https://coolitis.github.io/cooler-repo/addons/plugin.video.free-movies/
-        </datadir>
+    <!-- SlyGuy Addons -->
+    <addon id="plugin.video.dstv.now" version="1.0.0" name="DStv Now">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.dstv.now/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.dstv.now/</datadir>
+    </addon>
+
+    <addon id="plugin.video.samsungtvplus" version="1.0.0" name="Samsung TV Plus">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.samsungtvplus/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.samsungtvplus/</datadir>
+    </addon>
+
+    <addon id="plugin.video.pbslive" version="1.0.0" name="PBS Live">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.pbslive/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.pbslive/</datadir>
+    </addon>
+
+    <!-- Streaming Addons -->
+    <addon id="plugin.video.netflix" version="1.0.0" name="Netflix">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.netflix/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.netflix/</datadir>
+    </addon>
+
+    <addon id="plugin.video.youtube" version="1.0.0" name="YouTube">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.youtube/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.youtube/</datadir>
+    </addon>
+
+    <addon id="plugin.video.plex" version="1.0.0" name="Plex">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.plex/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.plex/</datadir>
+    </addon>
+
+    <addon id="plugin.video.pluto" version="1.0.0" name="Pluto TV">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.pluto/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.pluto/</datadir>
+    </addon>
+
+    <addon id="plugin.video.crackle" version="1.0.0" name="Crackle Movies">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.crackle/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.crackle/</datadir>
+    </addon>
+
+    <addon id="plugin.video.tubi" version="1.0.0" name="Tubi Movies">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.tubi/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.tubi/</datadir>
+    </addon>
+
+    <addon id="plugin.video.popcornflix" version="1.0.0" name="Popcornflix">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.popcornflix/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.popcornflix/</datadir>
+    </addon>
+
+    <addon id="plugin.video.internetarchive" version="1.0.0" name="Internet Archive Movies">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.internetarchive/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.internetarchive/</datadir>
+    </addon>
+
+    <!-- Dependency Modules -->
+    <addon id="script.module.slyguy" version="1.0.0" name="SlyGuy Shared Module">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/slyguy.dependencies/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/slyguy.dependencies/</datadir>
+    </addon>
+
+    <addon id="script.module.inputstreamhelper" version="0.5.0" name="InputStream Helper">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/script.module.inputstreamhelper/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.inputstreamhelper/</datadir>
     </addon>
 </addons>
-
