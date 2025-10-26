@@ -125,14 +125,6 @@
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.slyguy/</datadir>
     </addon>
 
-    <addon id="script.module.pycryptodomex" version="3.4.0" name="PyCryptodomeX">
-        <!-- 
-            Description: Cryptographic functions dependency (required by some DRM-protected services).
-            Subscription:  Free
-        -->
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/script.module.pycryptodomex/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.pycryptodomex/</datadir>
-    </addon>
 
     <addon id="script.module.inputstreamhelper" version="0.5.0" name="InputStream Helper">
         <!-- 
