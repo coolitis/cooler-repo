@@ -116,13 +116,20 @@
 
     <!-- ──────────────── Dependency Modules ──────────────── -->
 
-    <addon id="script.module.slyguy" version="1.0.0" name="SlyGuy Shared Module">
-        <!-- 
-            Description: Required dependency for all SlyGuy-based addons (DStv, SamsungTV Plus, PBS Live, etc.)
-            Subscription:  Free
-        -->
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/script.module.slyguy/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.slyguy/</datadir>
+    <addon id="script.module.slyguy" version="1.0.0" name="SlyGuy Shared Module" provider-name="SlyGuy">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="resources/lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>SlyGuy Common Dependencies</summary>
+        <description>
+            Provides common functions, authentication, and support files for SlyGuy-based addons such as DStv Now, PBS Live, Samsung TV Plus, and others.
+        </description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://github.com/SlyGuy-Network</source>
+    </extension>
     </addon>
 
 
