@@ -132,6 +132,15 @@
     </extension>
     </addon>
 
+    <addon id="slyguy.dependencies" version="1.0.0" name="SlyGuy Dependencies" provider-name="SlyGuy">
+    <requires>
+        <import addon="script.module.python.requests" version="2.25.1"/>
+    </requires>
+    <extension point="xbmc.python.module" library="default.py"/>
+    <summary lang="en">Shared Python modules required for SlyGuy-based addons (DStv Now, Samsung TV Plus, PBS Live, etc.)</summary>
+    <description lang="en">Provides additional helper modules and libraries needed by SlyGuy-based Kodi addons.</description>
+    </addon>
+
 
     <addon id="script.module.inputstreamhelper" version="0.5.0" name="InputStream Helper">
         <!-- 
