@@ -1,54 +1,146 @@
 <addons>
+
     <!-- IPTV Addon -->
     <addon id="plugin.video.iptv" version="1.0.0" name="IPTV MultiSource">
+        <!-- 
+            Description: Custom IPTV player that can load multiple .m3u playlist URLs 
+                         simultaneously, with EPG (Electronic Program Guide) integration.
+            Subscription:  Free (depends on the .m3u sources provided by user)
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.iptv/</datadir>
     </addon>
 
-    <!-- SlyGuy Addons -->
+    <!-- ──────────────── SlyGuy Addons (require SlyGuy modules) ──────────────── -->
+
     <addon id="plugin.video.dstv.now" version="1.0.0" name="DStv Now">
+        <!-- 
+            Description: Streams DStv channels and on-demand content (South African service).
+            Subscription: ✅ Requires valid DStv Now login.
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.dstv.now/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.dstv.now/</datadir>
     </addon>
+
     <addon id="plugin.video.samsungtvplus" version="1.0.0" name="Samsung TV Plus">
+        <!-- 
+            Description: Access Samsung TV Plus live channels (free streaming service).
+            Subscription:  Free (ad-supported)
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.samsungtvplus/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.samsungtvplus/</datadir>
     </addon>
+
     <addon id="plugin.video.pbslive" version="1.0.0" name="PBS Live">
+        <!-- 
+            Description: Streams PBS live and on-demand programming.
+            Subscription:  Free (public service content)
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.pbslive/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.pbslive/</datadir>
     </addon>
 
-    <!-- Streaming Addons -->
+    <!-- ──────────────── Streaming Addons ──────────────── -->
+
     <addon id="plugin.video.netflix" version="1.0.0" name="Netflix">
+        <!-- 
+            Description: Official Netflix streaming addon (requires InputStream Adaptive).
+            Subscription: ✅ Paid subscription and login required.
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.netflix/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.netflix/</datadir>
     </addon>
+
     <addon id="plugin.video.youtube" version="1.0.0" name="YouTube">
+        <!-- 
+            Description: Access YouTube videos, playlists, and live streams.
+            Subscription:  Free (Google login optional for personalized features)
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.youtube/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.youtube/</datadir>
     </addon>
+
     <addon id="plugin.video.plex" version="1.0.0" name="Plex">
+        <!-- 
+            Description: Stream your Plex media server content or free Plex on-demand movies.
+            Subscription:  Free (login required for personal libraries)
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.plex/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.plex/</datadir>
     </addon>
+
     <addon id="plugin.video.pluto" version="1.0.0" name="Pluto TV">
+        <!-- 
+            Description: 250+ free live TV channels and on-demand movies.
+            Subscription:  Free (no login required)
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.pluto/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.pluto/</datadir>
     </addon>
 
-    <!-- Modules -->
+    <addon id="plugin.video.crackle" version="1.0.0" name="Crackle Movies">
+        <!-- 
+            Description: Sony’s Crackle – free movies and TV shows.
+            Subscription:  Free (ad-supported)
+        -->
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.crackle/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.crackle/</datadir>
+    </addon>
+
+    <addon id="plugin.video.tubi" version="1.0.0" name="Tubi Movies">
+        <!-- 
+            Description: Thousands of free movies and TV shows across genres.
+            Subscription:  Free (ad-supported)
+        -->
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.tubi/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.tubi/</datadir>
+    </addon>
+
+    <addon id="plugin.video.popcornflix" version="1.0.0" name="Popcornflix">
+        <!-- 
+            Description: Free on-demand movies – no login required.
+            Subscription:  Free (ad-supported)
+        -->
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.popcornflix/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.popcornflix/</datadir>
+    </addon>
+
+    <addon id="plugin.video.internetarchive" version="1.0.0" name="Internet Archive Movies">
+        <!-- 
+            Description: Public-domain and classic films from the Internet Archive.
+            Subscription:  Free (no login required)
+        -->
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/plugin.video.internetarchive/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/plugin.video.internetarchive/</datadir>
+    </addon>
+
+    <!-- ──────────────── Dependency Modules ──────────────── -->
+
     <addon id="script.module.slyguy" version="1.0.0" name="SlyGuy Shared Module">
+        <!-- 
+            Description: Required dependency for all SlyGuy-based addons (DStv, SamsungTV Plus, PBS Live, etc.)
+            Subscription:  Free
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/script.module.slyguy/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.slyguy/</datadir>
     </addon>
+
     <addon id="script.module.pycryptodomex" version="3.4.0" name="PyCryptodomeX">
+        <!-- 
+            Description: Cryptographic functions dependency (required by some DRM-protected services).
+            Subscription:  Free
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/script.module.pycryptodomex/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.pycryptodomex/</datadir>
     </addon>
+
     <addon id="script.module.inputstreamhelper" version="0.5.0" name="InputStream Helper">
+        <!-- 
+            Description: Helps Kodi install/enable the InputStream Adaptive module for streaming DRM content.
+            Subscription:  Free
+        -->
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/script.module.inputstreamhelper/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.inputstreamhelper/</datadir>
     </addon>
-</addons>
 
+</addons>
