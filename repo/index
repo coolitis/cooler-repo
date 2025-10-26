@@ -64,12 +64,7 @@
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.slyguy/</datadir>
     </addon>
 
-    <addon id="script.module.pycryptodomex" version="3.4.0" name="PyCryptodomeX">
-        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/script.module.pycryptodomex/addon.xml</info>
-        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.pycryptodomex/</datadir>
-    </addon>
-
-    <addon id="script.module.slyguy" version="1.0.0" name="SlyGuy Shared Module">
+    <addon id="slyguy.dependencies" version="1.0.0" name="SlyGuy Dependencies">
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/slyguy.dependencies/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/slyguy.dependencies/</datadir>
     </addon>
