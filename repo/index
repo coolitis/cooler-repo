@@ -69,6 +69,11 @@
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.pycryptodomex/</datadir>
     </addon>
 
+    <addon id="script.module.slyguy" version="1.0.0" name="SlyGuy Shared Module">
+        <info compressed="false">https://coolitis.github.io/cooler-repo/addons/slyguy.dependencies/addon.xml</info>
+        <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/slyguy.dependencies/</datadir>
+    </addon>
+
     <addon id="script.module.inputstreamhelper" version="0.5.0" name="InputStream Helper">
         <info compressed="false">https://coolitis.github.io/cooler-repo/addons/script.module.inputstreamhelper/addon.xml</info>
         <datadir zip="true">https://coolitis.github.io/cooler-repo/addons/script.module.inputstreamhelper/</datadir>
