@@ -8,17 +8,17 @@
                name="My cooler Repository">
         <!-- Link to your master index (addons.xml) -->
         <info compressed="false">
-            https://coolitis.github.io/cooler-repo/repo/addons.xml
+            repo/addons.xml
         </info>
 
         <!-- MD5 checksum of the addons.xml -->
         <checksum>
-            https://coolitis.github.io/cooler-repo/repo/addons.xml.md5
+            repo/addons.xml.md5
         </checksum>
 
         <!-- Folder that contains all your addon zips -->
         <datadir zip="true">
-            https://coolitis.github.io/cooler-repo/addons/
+            addons
         </datadir>
     </extension>
 
