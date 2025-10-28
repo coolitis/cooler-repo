@@ -141,7 +141,6 @@
     <description lang="en">Provides additional helper modules and libraries needed by SlyGuy-based Kodi addons.</description>
     </addon>
 
-
     <addon id="script.module.inputstreamhelper" version="0.5.0" name="InputStream Helper">
         <!-- 
             Description: Helps Kodi install/enable the InputStream Adaptive module for streaming DRM content.
